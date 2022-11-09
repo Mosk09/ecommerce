@@ -1,0 +1,109 @@
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.item {
+  background-color: white;
+  padding: 20px;
+  font-size: 20px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 10px;
+  border-radius: 5px;
+  box-shadow: 1px 0px 0px 0px rgba(0, 0, 0, 0.4);
+}
+.ele {
+  padding: 20px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+}
+.ele div {
+  font-size: 15px;
+  margin: 0 5px;
+  padding: 5px 10px;
+
+  border: solid black;
+  border-radius: 5px;
+}
+.ele button {
+  border: none;
+  color: rgb(226, 226, 226);
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #052444;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+}
+.ele button:hover {
+  background-color: #a4f7fa;
+  color: #052444;
+  border-radius: 5px;
+}
+
+.cierre:hover {
+  background-color: #a4f7fa;
+  color: #052444;
+  border-radius: 5px;
+}
+.cierre {
+  border: none;
+  color: rgb(226, 226, 226);
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #052444;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  justify-content: center;
+}
+.item h3 {
+  font-size: 32px;
+}
+.page {
+  background-color: white;
+  padding: 40px;
+  display: flex;
+
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.15);
+  transform: scale(0);
+  animation: scale 0.3s ease forwards;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.price {
+  font-size: 28px;
+  margin: 5px 0;
+}
+.image {
+  width: 400px;
+  min-width: 400px;
+}
+.listItem {
+  display: flex;
+  gap: 10px;
+  border-bottom: solid 1px #ccc;
+  padding: 10px 0;
+}
+
+@keyframes scale {
+  from {
+    transform: scale(0);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}
