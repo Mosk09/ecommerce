@@ -11,8 +11,8 @@ export default function FAQ() {
           <h3>Do you ship internationally?</h3>
           <p>
             Yes, we ship internationally. Make sure to enter your entire
-            international address in English characters. Don't forget the Postal
-            Code!
+            international address in English characters. Do not forget the
+            Postal Code!
           </p>
           <h3>How much does shipping cost?</h3>
           <p>
@@ -21,12 +21,12 @@ export default function FAQ() {
           </p>
           <h3>Can I exchange an item for a different size?</h3>
           <p>
-            Yes. We want happy customers. If your gear doesn't fit as expected,
-            we'll be happy to exchange it for a different size. Contact us and
-            we'll help you get squared away.
+            Yes. We want happy customers. If your gear does nott fit as
+            expected, we will be happy to exchange it for a different size.
+            Contact us and we will help you get squared away.
           </p>
           <h3>
-            Where is my package? The tracking information hasn't updated in a
+            Where is my package? The tracking information has not updated in a
             long time. Can you tell me where it is?
           </h3>
 
