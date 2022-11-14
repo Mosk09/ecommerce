@@ -1,12 +1,13 @@
-export async function getItems() {
-  const request = await fetch("http://localhost:3000/api/hello");
-  const items = await request.json();
+import { data } from "../pages/api/hello";
 
-  return items;
+export async function getItems() {
+  console.log(data);
+
+  return data;
 }
 
 export async function getLatestItems() {
-  const items = await getItems();
+  const items = data;
 
   return items.slice(0, 3);
 }
