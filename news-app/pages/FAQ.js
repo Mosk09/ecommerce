@@ -44,11 +44,11 @@ export default function FAQ() {
             orders take much longer for shipping and processing. In some cases
             international orders can take up to 8 weeks from departure of the US
             to be delivered. If the tracking information was last in the US and
-            hasn't updated recently, it is more than likely still making its way
-            there. Once it arrives at that next destination, the package will be
-            scanned and the tracking information will update. If it has been
-            over 8 weeks since it has been updated, let us know and we can try
-            shipping your order again at no additional cost to you.
+            has not updated recently, it is more than likely still making its
+            way there. Once it arrives at that next destination, the package
+            will be scanned and the tracking information will update. If it has
+            been over 8 weeks since it has been updated, let us know and we can
+            try shipping your order again at no additional cost to you.
           </p>
         </div>
       </div>
