@@ -45,11 +45,6 @@ export default function ShoppingCart() {
       <button className={style.close} onClick={handleCloseCart}>
         Close
       </button>
-      <Link href="/Cart">
-        <button className={style.close} onClick={handleCart}>
-          Buy
-        </button>
-      </Link>
     </div>
   );
 }

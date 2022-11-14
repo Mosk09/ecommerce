@@ -10,6 +10,7 @@ export default function Home({ items }) {
   return (
     <Layout title="Bienvenido">
       <div className={styles.banner}>
+        
         <div className={styles.bannerBackground}>
           <div className={styles.bannerInfo}>
             <h2>2023 para memorizar ya</h2>
