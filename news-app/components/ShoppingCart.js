@@ -1,11 +1,15 @@
 import { useAppContext } from "./StateWrapper";
 import Product from "./product";
 import style from "../styles/ShoppingCart.module.css";
+import Link from "next/link";
 export default function ShoppingCart() {
   const cart = useAppContext();
 
   function handleCloseCart() {
     cart.CloseCart();
+  }
+  function handleCart() {
+    <Link href="/Cart"></Link>;
   }
   function getTotal() {
     const total = cart.items.reduce(
@@ -24,7 +28,7 @@ export default function ShoppingCart() {
         <div className={style.empty}>Cart is empty</div>
       ) : (
         <>
-          <h3 className={style.cartProducts}>Tus Productos</h3>
+          <h3 className={style.cartProducts}>Your Products</h3>
           <div>
             {cart.items.map((item) => (
               <Product
@@ -41,6 +45,11 @@ export default function ShoppingCart() {
       <button className={style.close} onClick={handleCloseCart}>
         Close
       </button>
+      <Link href="/Cart">
+        <button className={style.close} onClick={handleCart}>
+          Buy
+        </button>
+      </Link>
     </div>
   );
 }
