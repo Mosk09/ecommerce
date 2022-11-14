@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { useState } from "react";
+
 import style from "../styles/Menu.module.css";
 import { useAppContext } from "./StateWrapper";
 
@@ -8,7 +8,7 @@ export default function Menu() {
   function handleOpenCart() {
     cart.openCart();
   }
-  const [mode, setMode] = useState(false);
+
   return (
     <nav className={style.menu}>
       <div>
