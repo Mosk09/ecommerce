@@ -1,5 +1,5 @@
 export async function getItems() {
-  const request = await fetch("http://localhost:3000/api/items");
+  const request = await fetch("http://localhost:3000/api/hello");
   const items = await request.json();
 
   return items;
