@@ -3,14 +3,13 @@ import Head from "next/head";
 import Link from "next/link";
 import Layout from "../components/Layout";
 import { getLatestItems } from "../services/itemServices";
-import styleProduct from "../styles/product.module.css";
+import styleProduct from "../styles/Product.module.css";
 import Product from "../components/product";
 
 export default function Home({ items }) {
   return (
     <Layout title="Bienvenido">
       <div className={styles.banner}>
-        
         <div className={styles.bannerBackground}>
           <div className={styles.bannerInfo}>
             <h2>2023 para memorizar ya</h2>
